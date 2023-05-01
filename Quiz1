@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="sytle.css">
+</head>
+
+<body>
+    <div class="background">
+        <form>
+            <h1 style="color: aliceblue;">Insurance Form</h1>
+            <div class="input">
+                <input type="text" id="name" required placeholder="Your Name">
+            </div>
+            <div class="input">
+                <input type="email" id="Email" required placeholder="Your E-mail">
+            </div>
+            <div class="input">
+                <input type="tel" id="phone" required placeholder="Your Phone">
+            </div>
+            <div class="input">
+                <input type="text" id="age" required placeholder="Your Age">
+            </div>
+            <div class="input">
+                <label for="file">attach your file</label>
+                <input type="file" id="file">
+            </div>
+            <div class="input">
+                <label for="col">Chose a color</label>
+                <input type="color" id="col">
+            </div>
+            <div class="input">
+                <label>Check places you travelled</label>
+                <br>
+                <p>islamabad</p><input type="checkbox" id="check">
+                <p>Lahore</p> <input type="checkbox" id="check">
+                <p>Karachi</p><input type="checkbox" id="check">
+                <p>Multan</p><input type="checkbox" id="check">
+            </div>
+            <div class="input">
+                <label for="date">Your D.O.B</label>
+                <input type="date" id="date">
+            </div>
+            <div class="input">
+                <label>Your gender</label>
+                <p>Male</p><input type="radio" name="gender" required>
+                <p>Female</p><input type="radio" name="gender">
+            </div>
+            <div class="input">
+                <label for="slider">How satisfied are you with the quality of form</label>
+                <input type="range" name="" id="slider">
+            </div>
+            <div class="input">
+                <textarea required placeholder="any suggestions?" rows="8"></textarea>
+            </div>
+            <div class="input">
+                <button type="submit" id="btn">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
