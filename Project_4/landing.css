@@ -1,0 +1,137 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+
+    background-color: rgb(255, 255, 255);
+    line-height: 1.4em;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+.container1 {
+    background-image: url(faizur-rehman-pHPzdEHN6Os-unsplash.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container1 h1 {
+    color: white;
+    /* font-size: 50px; */
+    margin: 0;
+}
+
+.text {
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.section1 {
+    background-color: black;
+    color: white;
+    height: 160px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section1 h2 {
+    margin: 0;
+    padding: 80px 0;
+}
+
+.section1 h2 span {
+    font-size: 80px;
+}
+
+
+.container2 {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    flex-basis: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 3px 1px 5px;
+    text-align: start;
+    margin: 10px 0;
+}
+
+.box h3,
+.box p {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+.container3 {
+    display: flex;
+    color: white;
+}
+
+.box2 {
+    min-height: 300px;
+    padding: 32px;
+}
+
+.box2 h2 {
+    font-size: 40px;
+}
+
+
+.left2 {
+    background-color: #515603;
+}
+
+.right2 {
+    background-color: #722300;
+}
+
+footer {
+    background-color: black;
+    height: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+footer p {
+    padding-top: 30px;
+    font-size: 20px;
+    margin: 0;
+}
+
+@media screen and (max-width:450px) {
+    .container3 {
+        flex-wrap: wrap;
+    }
+
+    .container1 h1,
+    .section1 h2 span,
+    .section1 h2 {
+        font-size: medium;
+    }
+}
